@@ -12,6 +12,7 @@ import net.thedragonteam.core.TheDragonCore;
 import net.thedragonteam.core.util.LogHelper;
 import net.thedragonteam.moblocks.proxy.CommonProxy;
 
+import net.thedragonteam.moblocks.registry.ModBlocks;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -28,7 +29,7 @@ public class MoBlocks {
 	public static CommonProxy proxy;
 
 	// public static CreativeTabs TAB_MO_BLOCKS = new
-	// MBPTab(CreativeTabs.getNextID(), MoBlocks.MODID, "blocks", 0);
+	// MBTab(CreativeTabs.getNextID(), MoBlocks.MODID, "blocks", 0);
 
 	public static Logger logger = LogManager.getLogger(MoBlocks.MODNAME);
 
@@ -46,6 +47,8 @@ public class MoBlocks {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		ModBlocks.init();
+		ModBlocks.register();
 		proxy.registerRenderers(this);
 		proxy.preInit(event);
 	}

@@ -22,6 +22,6 @@ public class CommonProxy {
 		LogHelper.info("Finished PostInitialization");
 	}
 
-	public void registerRenderers(MoBlocks moBlocks) {
+	public void registerRenderers(MoBlocks ins) {
 	}
 }
