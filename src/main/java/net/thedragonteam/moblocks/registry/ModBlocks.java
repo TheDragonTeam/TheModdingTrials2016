@@ -19,7 +19,7 @@ public class ModBlocks {
     public static Block BLOCK_DIRT_SLAB;
 
     public static void init() {
-        BLOCK_DIRT_SLAB = new BlockDirtSlab().setRegistryName("block_dirt_slab");
+        BLOCK_DIRT_SLAB = new BlockDirtSlab().setRegistryName("dirt_slab");
     }
 
     public static void register() {
