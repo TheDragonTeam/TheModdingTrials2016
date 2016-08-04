@@ -1,0 +1,16 @@
+[
+{
+  "modid": "moblocks",
+  "name": "Mo' Blocks",
+  "description": "A mod that adds more blocks to minecraft",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["sokratis12GR, Moritz30"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
