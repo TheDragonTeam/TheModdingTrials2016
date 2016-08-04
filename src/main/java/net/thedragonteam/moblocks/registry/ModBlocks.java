@@ -17,6 +17,7 @@ import java.util.Set;
 public class ModBlocks {
 
     public static Block BLOCK_DIRT_SLAB;
+	public static Block dragonBlock;
 
     public static void init() {
         BLOCK_DIRT_SLAB = new BlockDirtSlab().setRegistryName("dirt_slab");
