@@ -1,1 +1,8 @@
-tile.DirtSlab.name=Dirt Slab
+#en_US.lang
+
+#CreativeTabs
+itemGroup.blocks=Mo' Blocks
+
+#Blocks
+tile.dirt_slab.name=Dirt Slab
+tile.the_dragon_block.name=The Dragon Block

@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.thedragonteam.core.TheDragonCore;
 import net.thedragonteam.core.util.LogHelper;
+import net.thedragonteam.moblocks.client.gui.MBTab;
 import net.thedragonteam.moblocks.proxy.CommonProxy;
 
 import net.thedragonteam.moblocks.registry.ModBlocks;
@@ -28,8 +29,7 @@ public class MoBlocks {
 	@SidedProxy(clientSide = MoBlocks.CLIENTPROXY, serverSide = MoBlocks.COMMONPROXY)
 	public static CommonProxy proxy;
 
-	// public static CreativeTabs TAB_MO_BLOCKS = new
-	// MBTab(CreativeTabs.getNextID(), MoBlocks.MODID, "blocks", 0);
+	public static CreativeTabs TAB_MO_BLOCKS = new MBTab(CreativeTabs.getNextID(), MoBlocks.MODID, "blocks", 0);
 
 	public static Logger logger = LogManager.getLogger(MoBlocks.MODNAME);
 
