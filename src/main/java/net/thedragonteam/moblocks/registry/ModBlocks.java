@@ -20,14 +20,17 @@ public class ModBlocks {
 
     public static void init() {
         BLOCK_DIRT_SLAB = new BlockDirtSlab().setRegistryName("dirt_slab");
+		dragonBlock = new BlockBasic("thedragonblock", Material.CLOTH, 1.0F, 5.0F).setRegistryName("thedragonblock");
     }
 
     public static void register() {
         registerBlock(BLOCK_DIRT_SLAB);
+		registerBlock(dragonBlock);
     }
 
     public static void registerRenders() {
         registerRender(BLOCK_DIRT_SLAB);
+		registerRender(dragonBlock);
     }
 
     public static void registerBlock(Block block) {
