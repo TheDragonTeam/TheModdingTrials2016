@@ -1,5 +1,5 @@
 {
-    "parent":"moblocks:block/tmt_block",
+    "parent":"mothings:block/tmt_block",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

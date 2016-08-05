@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "moblocks:the_dragon_block" }
+        "normal": { "model": "mothings:the_dragon_block" }
     }
 }

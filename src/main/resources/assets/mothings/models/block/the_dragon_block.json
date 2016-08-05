@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "moblocks:blocks/thedragonblock"
+        "all": "mothings:blocks/thedragonblock"
     }
 }

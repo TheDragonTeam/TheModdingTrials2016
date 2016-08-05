@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "moblocks:tmt_block" }
+        "normal": { "model": "mothings:tmt_block" }
     }
 }
