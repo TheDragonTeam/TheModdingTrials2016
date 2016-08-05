@@ -14,7 +14,6 @@ public class BlockBasic extends Block {
         this.setUnlocalizedName(unlocalizedName);
         this.setHardness(hardness);
         this.setResistance(resistance);
-        this.setCreativeTab(MoBlocks.TAB_MO_BLOCKS);
     }
 
     public BlockBasic(String unlocalizedName, float hardness, float resistance) {
