@@ -1,4 +1,4 @@
-package net.thedragonteam.moblocks.blocks.slabs;
+package net.thedragonteam.mothings.blocks.slabs;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -7,7 +7,7 @@ import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.thedragonteam.moblocks.MoBlocks;
+import net.thedragonteam.mothings.MoThings;
 
 
 public class BlockDirtSlab extends Block {
@@ -17,7 +17,7 @@ public class BlockDirtSlab extends Block {
         this.setUnlocalizedName("dirt_slab");
         this.setHardness(2.0F);
         this.setHarvestLevel("shovel", 0);
-        this.setCreativeTab(MoBlocks.TAB_MO_BLOCKS);
+        this.setCreativeTab(MoThings.TAB_MO_BLOCKS);
     }
 
     @Override

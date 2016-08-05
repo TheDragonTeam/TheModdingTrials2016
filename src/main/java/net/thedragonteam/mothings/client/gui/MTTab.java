@@ -1,14 +1,14 @@
-package net.thedragonteam.moblocks.client.gui;
+package net.thedragonteam.mothings.client.gui;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.thedragonteam.moblocks.MoBlocks;
-import net.thedragonteam.moblocks.registry.ModBlocks;
+import net.thedragonteam.mothings.MoThings;
+import net.thedragonteam.mothings.registry.ModBlocks;
 
-public class MBTab extends CreativeTabs {
+public class MTTab extends CreativeTabs {
     private String label;
     private int tab;
 
@@ -18,11 +18,11 @@ public class MBTab extends CreativeTabs {
         iconArmorPlus = new ItemStack(ModBlocks.dragonBlock);
     }
 
-    public MBTab(int id, String modid, String label, int tab) {
+    public MTTab(int id, String modid, String label, int tab) {
         super(id, modid);
         this.label = label;
         this.tab = tab;
-        setBackgroundImageName(MoBlocks.MODID + ".png"); // Automagically has tab_ applied to it. Make sure you change the texture name.
+        setBackgroundImageName(MoThings.MODID + ".png"); // Automagically has tab_ applied to it. Make sure you change the texture name.
 
     }
 

@@ -1,10 +1,10 @@
-package net.thedragonteam.moblocks.proxy;
+package net.thedragonteam.mothings.proxy;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.thedragonteam.core.util.LogHelper;
-import net.thedragonteam.moblocks.MoBlocks;
+import net.thedragonteam.mothings.MoThings;
 
 public class CommonProxy {
 
@@ -13,7 +13,7 @@ public class CommonProxy {
 	}
 
 	public void init(FMLInitializationEvent event) {
-//		MBTab.initialize();
+//		MTTab.initialize();
 
 		LogHelper.info("Finished Initialization");
 	}
@@ -22,6 +22,6 @@ public class CommonProxy {
 		LogHelper.info("Finished PostInitialization");
 	}
 
-	public void registerRenderers(MoBlocks ins) {
+	public void registerRenderers(MoThings ins) {
 	}
 }

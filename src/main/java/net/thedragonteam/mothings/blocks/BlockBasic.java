@@ -1,10 +1,7 @@
-package net.thedragonteam.moblocks.blocks;
+package net.thedragonteam.mothings.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
-import net.thedragonteam.moblocks.MoBlocks;
-import net.thedragonteam.moblocks.client.gui.MBTab;
 
 public class BlockBasic extends Block {
 

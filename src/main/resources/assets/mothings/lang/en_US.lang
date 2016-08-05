@@ -1,0 +1,9 @@
+#en_US.lang
+
+#CreativeTabs
+itemGroup.things=Mo' Things
+
+#Blocks
+tile.dirt_slab.name=Dirt Slab
+tile.the_dragon_block.name=The Dragon Block
+tile.tmt_block=The Modding Trials Block

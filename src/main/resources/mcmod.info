@@ -1,8 +1,8 @@
 [
 {
-  "modid": "moblocks",
-  "name": "Mo' Blocks",
-  "description": "A mod that adds more blocks to minecraft",
+  "modid": "mothings",
+  "name": "Mo' Things",
+  "description": "A mod that adds more things to minecraft",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
