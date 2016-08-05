@@ -14,13 +14,8 @@ import net.thedragonteam.moblocks.blocks.slabs.BlockDirtSlab;
 
 public class ModBlocks {
 
-<<<<<<< HEAD
-    public static Block BLOCK_DIRT_SLAB;
-	public static Block dragonBlock;
-=======
     public static Block dirtSlab;
     public static Block dragonBlock;
->>>>>>> origin/master
 
     public static void init() {
         dirtSlab = new BlockDirtSlab().setRegistryName("dirt_slab");
