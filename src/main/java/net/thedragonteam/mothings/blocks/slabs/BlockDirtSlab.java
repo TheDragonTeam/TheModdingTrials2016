@@ -17,7 +17,7 @@ public class BlockDirtSlab extends Block {
         this.setUnlocalizedName("dirt_slab");
         this.setHardness(2.0F);
         this.setHarvestLevel("shovel", 0);
-        this.setCreativeTab(MoThings.TAB_MO_BLOCKS);
+        this.setCreativeTab(MoThings.TAB_MO_THINGS);
     }
 
     @Override
