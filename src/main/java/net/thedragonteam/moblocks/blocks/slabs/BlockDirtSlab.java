@@ -1,26 +1,23 @@
 package net.thedragonteam.moblocks.blocks.slabs;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumBlockRenderType;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.thedragonteam.moblocks.MoBlocks;
 
 
 public class BlockDirtSlab extends Block {
 
     public BlockDirtSlab() {
         super(Material.SAND);
-        this.setUnlocalizedName("DirtSlab");
+        this.setUnlocalizedName("dirt_slab");
         this.setHardness(2.0F);
         this.setHarvestLevel("shovel", 0);
+        this.setCreativeTab(MoBlocks.TAB_MO_BLOCKS);
     }
 
     @Override

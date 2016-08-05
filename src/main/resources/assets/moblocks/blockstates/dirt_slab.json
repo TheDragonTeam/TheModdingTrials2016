@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "moblocks:DirtSlab" }
+    "normal": { "model": "moblocks:dirt_slab" }
   }
 }

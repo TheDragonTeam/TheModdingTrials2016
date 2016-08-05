@@ -1,5 +1,5 @@
 {
-    "parent":"moblocks:block/thedragonblock",
+    "parent":"moblocks:block/the_dragon_block",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
