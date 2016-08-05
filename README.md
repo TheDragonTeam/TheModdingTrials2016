@@ -1,4 +1,4 @@
-This is TheDragonTeam's repository for Mo' Things, the mod they develop for The Modding Trials 2016. Mo' Things needs TheDragonCore 1.0.1 or above.
+This is TheDragonTeam's repository for Mo' Things, the mod they develop for The Modding Trials 2016. Mo' Things needs TheDragonCore 1.1.0 or above.
 
 Members
 -------
